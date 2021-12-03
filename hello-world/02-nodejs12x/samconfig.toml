@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "helloworld-02-nodejs12x"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-6idfyhk5n80d"
+s3_prefix = "helloworld-02-nodejs12x"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["HelloWorldFunction=737367569205.dkr.ecr.us-east-1.amazonaws.com/helloworld02nodejs12xb36c6ca8/helloworldfunction19d43fc4repo"]
