@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "lists3-nodejs12x-arm64-admin"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-6idfyhk5n80d"
+s3_prefix = "lists3-nodejs12x-arm64-admin"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []

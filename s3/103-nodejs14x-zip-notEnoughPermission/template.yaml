@@ -1,9 +1,9 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 Description: >
-  101-nodejs14x
+  101-nodejs14x-zip
 
-  Sample SAM Template for 101-nodejs14x
+  Sample SAM Template for 101-nodejs14x-zip
   
 # More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
 Globals:
@@ -12,21 +12,21 @@ Globals:
 
 Resources:
   HelloWorldFunction:
-    Type: AWS::Serverless::Function
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
-      PackageType: Image
+      CodeUri: hello-world/
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
       Architectures:
         - x86_64
       Events:
         HelloWorld:
-          Type: Api
+          Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
           Properties:
             Path: /hello
             Method: get
-    Metadata:
-      DockerTag: nodejs14.x-v1
-      DockerContext: ./hello-world
-      Dockerfile: Dockerfile
+      # No policy is defined 
+
 
 Outputs:
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
