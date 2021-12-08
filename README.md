@@ -21,3 +21,9 @@ Note: All lambda functions will be deployed as `zip`, instead of `image`
 
 | [s3/112-nodejs14-arm64-admin](s3/112-nodejs14-arm64-admin) | NodeJS 14: Listing all S3 Buckets with excessive permissions: AdministratorAccess |[Link](https://9j0hmgxfw4.execute-api.us-east-1.amazonaws.com/Prod/hello/) |
 | [s3/113-nodejs12-arm64-admin](s3/113-nodejs12-arm64-admin) | NodeJS 12: Listing all S3 Buckets with excessive permissions: AdministratorAccess | [Link](https://m06sej7yja.execute-api.us-east-1.amazonaws.com/Prod/hello/) | 
+
+## Hello World
+
+`Hellow World` sample are avaliable in both `zip` and `image` format
+
+E.g. NodeJS 14.x: https://pf2djogq95.execute-api.us-east-1.amazonaws.com/Prod/hello/

@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "nodejs14x-helloworld"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-6idfyhk5n80d"
+s3_prefix = "nodejs14x-helloworld"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
