@@ -20,4 +20,4 @@ Note: All lambda functions will be deployed as `zip`, instead of `image`
 | [s3/111-nodejs12-zip-admin](./s3/111-nodejs12-zip-admin) | NodeJS 12: Listing all S3 Buckets with excessive permissions: AdministratorAccess | [Link](https://35b9ww5ze7.execute-api.us-east-1.amazonaws.com/Prod/hello/)
 
 | [s3/112-nodejs14-arm64-admin](./s3/112-nodejs14-arm64-admin) | NodeJS 14: Listing all S3 Buckets with excessive permissions: AdministratorAccess |[Link](https://9j0hmgxfw4.execute-api.us-east-1.amazonaws.com/Prod/hello/) |
-| [s3/113-nodejs12-arm64-admin](./s3/113-nodejs12-arm64-admin) | NodeJS 12: Listing all S3 Buckets with excessive permissions: AdministratorAccess | [Link](https://m06sej7yja.execute-api.us-east-1.amazonaws.com/Prod/hello/)
+| [s3/113-nodejs12-arm64-admin](./s3/113-nodejs12-arm64-admin) | NodeJS 12: Listing all S3 Buckets with excessive permissions: AdministratorAccess | [Link](https://m06sej7yja.execute-api.us-east-1.amazonaws.com/Prod/hello/) | 
